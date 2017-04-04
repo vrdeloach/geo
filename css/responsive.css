@@ -1,0 +1,177 @@
+/* HI MY NAME IS EBONY DARKNESS DEMENTIA RAVENWAY AND I HAVE LONG EBONY BLACK HAIR (THATS HOW I GOT MY NAME) AND ICY BLUE EYES LIKE LIMPID TEARS AND THIS IS WHERE WE PUT THE MEDIA QUERIES*/
+
+
+/* Media Queries */
+
+
+@media (max-width: 550px) {
+  .goup {
+    display: inherit; }
+
+} 
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    #boi {
+      margin-left: 10%; }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+  header {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      text-align: right; }
+  
+  header ul {
+    height: 100%; }
+  
+  nav {
+    min-height: 100%; }
+  
+  nav ul li {
+    margin-top: 5%; }
+  
+  header li {
+      display:inline-block;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      padding-top: 0.2em;
+      padding-bottom: 0.2em;
+      vertical-align: bottom;
+      font-size: 1.7rem; }
+  
+  header {
+    color: #fff; }
+  
+  header ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 0.35em;
+    padding-left: 0.35em; }
+  
+  header ul li a:hover {
+    text-decoration: underline; }
+  
+  header ul li.active a {
+    background-color: #02884b;
+    border-radius: 0.3em;
+    text-decoration: none; }
+
+  .logo {
+      float:left; }
+
+  #bannerimage {
+  width: 100%;
+  background-image: url(../images/geocaching.PNG);
+  height: 405px;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+  #footnav {
+    display: inherit; }
+
+  #contact {
+    display: inherit;}
+
+  #thirst {
+    max-width: 25vw;
+    max-height: 60vh; }
+
+  #turn {
+    display: none;}
+
+  .teamname li span {
+    display:inherit;}
+
+  #cal {
+    display: inline-block;
+    width: 45%; 
+    margin:auto;}
+  
+
+ 
+
+}
+
+/* Larger than tablet */
+@media (min-width: 850px) {
+  .gallery {
+    list-style: none; }
+  
+  .gallery li {
+      float:left;
+      width: 50%;
+      margin: inherit;
+      color: #ddd; }
+
+
+
+}
+
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+@media (min-width: 1075px) {
+  .gallery {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  
+  .gallery li {
+      float: left;
+      width: 30%;
+      margin: 1%;
+      color: #ddd; }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+@media only screen and (max-width: 900px) {
+  .text {font-size: 12px;}
+  #left, #right, .center, #left2, #right2 {float:none; display:inline-block; margin: auto;}
+}
+
+@media (min-width: 750px) {
+  #mempic {
+  width: 25%;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;}
+
+#memlisttop li {
+  display: inline;
+  margin: 0 40px 0 0;}
+
+#memlistmid li {
+  display: inline;
+  margin: 0 40px 0 0;}
+
+#memlistbottom li {
+  display: inline;
+  margin: 0 40px 0 0;}
+
+#memlisttop {
+  margin: auto; 
+  text-align: center;}
+
+#memlistmid {
+  margin: auto; 
+  text-align: center;}
+
+#memlistbottom {
+  margin: auto; 
+  text-align: center;}
+}
+
+
+
